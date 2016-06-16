@@ -8,7 +8,7 @@ class Kele
 
   def initialize(email, password)
     response = self.class.post(api_url("sessions"), body: {"email": email, "password": password})
-    raise InvalidStudentCodeError.new() if response.code == 401
+    raise InvalidStudentCodeError.new() if response.code == 404
     @auth_token = response["auth_token"]
   end
 
