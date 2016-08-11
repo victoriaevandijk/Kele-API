@@ -1,4 +1,4 @@
-require 'kele/errors'
+# require '/lib/kele/errors'
 require 'httparty'
 require 'json'
 
