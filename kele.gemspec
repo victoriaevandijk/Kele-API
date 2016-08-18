@@ -9,7 +9,7 @@
    s.description   = 'A client for the Bloc API'
    s.authors       = ['Torie van Dijk']
    s.email         = 'victoriaevandijk@gmail.com'
-   s.files         = 'lib/kele.rb'
+   s.files         = ['lib/kele.rb']
    s.require_paths = ["lib"]
    s.homepage      =
      'http://rubygems.org/gems/kele'
